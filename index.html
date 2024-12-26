@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hero">
+        <h1>Hi! I'm Manuela Deigh</h1>
+        <p>Welcome to my professional portfolio. Explore my projects I have developed during my undergraduate studies, internship experiences, and current graduate coursework</p>
+        <a href="#about">Get to Know Me</a>
+    </div>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div id="about" class="content">
+        <section>
+            <h2>About Me</h2>
+            <p>I recently graduated with a Bachelor's degree in Biology and am now pursuing a Master's in Bioinformatics and Computational Biology at the University of Maryland, where I am excited to further explore my knowledge and skills in the intersection of biology, computer science, and data analysis</p>
+        </section>
+    </div>
+    <div id="projects" class="content">
+        <section>
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <h3>Exploring the Obesity-Diabetes Relationship</h3>
+                    <p>This project analyzes the correlation between obesity and type 2 diabetes in Black and Latin communities. Gathering data from the American Community Survey and using R programming, to highlights patterns and differences in these demographics.</p>
+                    <a href="Presentation/Obesity_Diabetes_relationship_project.pdf" class="btn" target="_blank">View PowerPoint</a>
+                    <a href="https://github.com/Manuela466/Obesity_Diabetes_Relationship_Project.git" class="btn" target="_blank">Github</a>
+                </div>
+                <div class="project">
+                    <h3>Neural Network Analysis</h3>
+                    <p>This project involves creating a neural network analysis using R programming to predict outcomes based on various datasets. The analysis is presented in a PowerPoint presentation.</p>
+                    <a href="path/to/neural_network_presentation.pptx" class="btn" target="_blank">View PowerPoint</a>
+                    <a href="path/to/neural_network_code.R" class="btn" target="_blank">Github</a>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h3>Exploring the Obesity-Diabetes Relationship</h3>
+            <embed src="Obesity_Diabetes_relationship_project.pdf"></embed>
+        </div>
+    </div>
+
+    <div id="skills" class="content">
+        <section>
+            <h2>Skills</h2>
+            <div class="skills">
+                <div class="skill">Python</div>
+                <div class="skill">R</div>
+                <div class="skill">Machine Learning</div>
+                <div class="skill">Data Analysis</div>
+            </div>
+        </section>
+    </div>
+    <div id="contact" class="content">
+        <section>
+            <h2>Contact</h2>
+            <p>Feel free to reach out via email or connect with me on LinkedIn!</p>
+            <div class="contact">
+                <a href="mailto:your.email@example.com">Email Me</a>
+                <a href="#">LinkedIn</a>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <p>© Manuela Deigh️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
