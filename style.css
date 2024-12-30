@@ -223,3 +223,47 @@ footer {
     color: white;
     margin-top: 40px;
 }
+
+/*Details Section*/
+.details-btn {
+    background-color: #ff4d90; /* Pink button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.details-btn:hover {
+    background-color: #ff165d; /* Darker pink hover effect */
+}
+
+.details {
+    margin-top: 15px;
+    padding: 10px;
+    background: #f9f9f9; /* Light background for description */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px; /* Rounded corners */
+    margin-bottom: 15px;
+    transition: transform 0.3s ease; /* Hover effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.project-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 8px 12px rgba(255, 102, 163, 0.3); /* Pink glow on hover */
+}
+
