@@ -1,17 +1,17 @@
 /* General Styles */
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Dosis', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #fff4f9;
-    color: #333;
+    background-color: #FFE5E7; /* Light blush background */
+    color: #4A4A4A; /* Soft gray text */
 }
 
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(135deg, #ff9a9e, #ff165d, #ff4d90); /* Pink gradient */
-    color: white;
+    background: linear-gradient(135deg, #FFD3D6, #F9DCC0, #FFC6CA); /* Pink to peach gradient */
+    color: #4A4A4A; /* Gray for contrast */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,19 +22,21 @@ body {
 .hero h1 {
     font-size: 4rem;
     margin: 0;
+    color: #4A4A4A; /* grey heading */
 }
 
 .hero p {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: 20px 0;
 }
 
 .hero a {
     display: inline-block;
+    font-size: 1.3rem;
     margin-top: 20px;
     padding: 15px 30px;
-    background: white;
-    color: #ff9a9e;
+    background: #FFC6CA; /* Light coral */
+    color: #4A4A4A; /* Gray */
     font-weight: bold;
     text-decoration: none;
     border-radius: 50px;
@@ -42,16 +44,17 @@ body {
 }
 
 .hero a:hover {
-    background: #ffe3ed; /* Light pink hover effect */
-    color: #ff4d90;
+    background: #FFB0B5; /* Bright coral */
+    color: white;
     transform: scale(1.05);
 }
 
 /* Navigation */
 nav {
+    font-size: 1.3rem;
     position: sticky;
     top: 0;
-    background: linear-gradient(90deg, #ff9a9e, #fad0c4); /* Pink gradient */
+    background: linear-gradient(90deg, #FFC6CA, #FFD3D6); /* Coral to pink gradient */
     padding: 10px 0;
     text-align: center;
     z-index: 100;
@@ -59,7 +62,7 @@ nav {
 
 nav a {
     margin: 0 15px;
-    color: white;
+    color: #4A4A4A; /* White navigation text */
     text-decoration: none;
     font-weight: bold;
     padding: 10px 20px;
@@ -67,12 +70,13 @@ nav a {
 }
 
 nav a:hover {
-    background: #ff4d90; /* Darker pink hover effect */
+    background: #F9DCC0; /* Pastel peach */
     border-radius: 5px;
 }
 
 /* Sections */
 .content {
+    font-size: 1.3rem;
     max-width: 1200px;
     margin: 50px auto;
     padding: 20px;
@@ -86,7 +90,7 @@ section {
 section h2 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #ff4d90; /* Pink color for section titles */
+    color: #FFB0B5; /* Light coral */
 }
 
 /* Projects Grid */
@@ -106,11 +110,11 @@ section h2 {
 
 .project:hover {
     transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(255, 102, 163, 0.3); /* Pink shadow on hover */
+    box-shadow: 0 6px 12px rgba(255, 208, 192, 0.3); /* Bright pink shadow */
 }
 
 .project h3 {
-    color: #ff4d90; /* Pink project titles */
+    color: #FFB0B5; /* pink project titles */
     margin: 0;
 }
 
@@ -123,7 +127,7 @@ section h2 {
     display: inline-block;
     margin-top: 10px;
     padding: 10px 20px;
-    background: #ff4d90;
+    background: #FFB0B5; /* Bright pink */
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -131,7 +135,7 @@ section h2 {
 }
 
 .project .btn:hover {
-    background: #ff165d;
+    background:  #F9DCC0; /* Soft pink */
 }
 
 /* Skills Section */
@@ -143,18 +147,18 @@ section h2 {
 }
 
 .skill {
-    background: linear-gradient(135deg, #ff9a9e, #fad0c4); /* Gradient for skills */
+    background: linear-gradient(135deg, #FFD3D6, #F9DCC0, #FFC6CA); /* Coral to blush gradient */
     padding: 15px 30px;
     border-radius: 50px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-weight: bold;
-    color: white;
+    color: #4A4A4A; /* Gray text */
     transition: transform 0.3s;
 }
 
 .skill:hover {
     transform: translateY(-5px);
-    background: linear-gradient(135deg, #ff4d90, #ff9a9e); /* Darker gradient on hover */
+    background: linear-gradient(135deg, #F9E6E4, #FFD3D6); /* Creamy blush to pink hover */
 }
 
 /* Modal Styling */
@@ -204,8 +208,8 @@ embed {
     display: inline-block;
     margin: 10px;
     padding: 15px 30px;
-    background: linear-gradient(90deg, #ff9a9e, #ff4d90);
-    color: white;
+    background: linear-gradient(135deg, #FFD3D6, #F9DCC0, #FFC6CA); /* Pink to peach gradient */
+    color: #4A4A4A; /* Gray */
     font-weight: bold;
     text-decoration: none;
     border-radius: 50px;
@@ -213,20 +217,20 @@ embed {
 }
 
 .contact a:hover {
-    background: #ff4d90; /* Darker pink hover effect */
+    background: #FFB0B5; /* Bright coral */
 }
 
 footer {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(90deg, #ff9a9e, #ff4d90); /* Pink gradient footer */
-    color: white;
+    background: linear-gradient(135deg, #FFD3D6, #F9DCC0, #FFC6CA); /* Creamy blush to pink */
+    color: #4A4A4A; /* Gray */
     margin-top: 40px;
 }
 
 /*Details Section*/
 .details-btn {
-    background-color: #ff4d90; /* Pink button */
+    background-color: #FFA5D6; /* Pink button */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -239,13 +243,13 @@ footer {
 }
 
 .details-btn:hover {
-    background-color: #ff165d; /* Darker pink hover effect */
+    background-color: #CED1F8; /* Darker pink hover effect */
 }
 
 .details {
     margin-top: 15px;
     padding: 10px;
-    background: #f9f9f9; /* Light background for description */
+    background: #FFF0F1; /* Light background for description */
     border: 1px solid #ddd;
     border-radius: 5px;
     font-size: 0.9rem;
@@ -266,4 +270,3 @@ footer {
     transform: scale(1.05); /* Slight zoom on hover */
     box-shadow: 0 8px 12px rgba(255, 102, 163, 0.3); /* Pink glow on hover */
 }
-
