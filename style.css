@@ -270,3 +270,23 @@ footer {
     transform: scale(1.05); /* Slight zoom on hover */
     box-shadow: 0 8px 12px rgba(255, 102, 163, 0.3); /* Pink glow on hover */
 }
+
+.avatar {
+    backdrop-filter: blur(10px);
+    width: 200px; /* Adjust size as needed */
+    height: 230px; /* Keep it square */
+    border-radius: 50%; /* Makes it a perfect circle */
+    background:rgba(255, 255, 255, 0.6); /* Translucent background */
+    padding: 5px; /* Thickness of the border */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Centers the container */
+}
+
+.avatar:hover {
+    transform: scale(1.1); /* Slight zoom effect */
+    transition: transform 0.3s ease-in-out;
+}
+
+
