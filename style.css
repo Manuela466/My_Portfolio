@@ -289,4 +289,82 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
+/* 3D Rounded Bubble Buttons */
+button.btn,
+a.btn {
+    display: inline-block;
+    padding: 12px 28px;               /* Larger padding for pill shape */
+    border-radius: 999px;            /* Full pill rounding */
+    border: none;
+    background: #FFB0B5;             /* Your pink color */
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    text-decoration: none;
+    cursor: pointer;
+
+    /* 3D layer */
+    box-shadow: 0 8px 0 #e38a96;     /* Thicker shadow for softer bubble look */
+    position: relative;
+    top: 0;
+    transition: 
+        top 0.12s ease,
+        box-shadow 0.12s ease,
+        background 0.25s ease,
+        transform 0.15s ease;
+}
+
+/* Hover: lifts upward slightly */
+button.btn:hover,
+a.btn:hover {
+    top: 3px;
+    box-shadow: 0 5px 0 #e38a96;
+    background: #FF9BA3;             /* Lighter pink on hover */
+}
+
+/* Click: pressed in */
+button.btn:active,
+a.btn:active {
+    top: 6px;
+    box-shadow: 0 2px 0 #e38a96;
+    transform: scale(0.98);
+}
+
+/* 3D Effect for Hero Button */
+.hero a {
+    display: inline-block;
+    padding: 15px 35px;
+    background: #FFC6CA; /* Your soft pink */
+    color: #4A4A4A;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 999px; /* Smooth round pill */
+    font-size: 1.3rem;
+
+    /* 3D layer */
+    box-shadow: 0 8px 0 #e7a0a6;
+    position: relative;
+    top: 0;
+
+    transition: 
+        top 0.15s ease,
+        box-shadow 0.15s ease,
+        background 0.25s ease,
+        color 0.15s ease;
+}
+
+/* Hover effect — lifts up slightly */
+.hero a:hover {
+    top: 3px;
+    background: #FFB0B5; /* lighter + brighter pink */
+    box-shadow: 0 5px 0 #e7a0a6;
+    color: white;
+}
+
+/* Click effect — pressed down */
+.hero a:active {
+    top: 6px;
+    box-shadow: 0 2px 0 #e7a0a6;
+}
 
